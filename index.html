@@ -18,7 +18,6 @@
     <header>
       <nav class="menu navbar navbar-expand-lg">
         <div class="container">
-          <!-- <a class="navbar-brand" href="index.html"><img class="icon" id="logo" src="Img/wheat.png" alt="logo"></a>  -->
           <button
             class="navbar-toggler"
             type="button"
@@ -54,9 +53,6 @@
                 <a class="nav-link" href="store_info.html">門市資訊</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="activity_list.html">最近活動</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="feature.html">餐廳特色</a>
               </li>
             </ul>
@@ -68,61 +64,116 @@
       </div>
     </header>
     <div class="main">
+      <section class=""></section>
       <section class="banner">
         <div class="container">
-          <div class="banner_title">
-            <h2>News</h2>
+          <div
+            id="carouselExampleControls"
+            class="banner_img carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../Img/bread_01.jpg" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../Img/bread_02.jpg" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../Img/drink_02.jpg" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="banner_img">
-            <img src="Img/bread_02.jpg" alt="本店主打" />
-          </div>
-          <div class="banner_content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              asperiores temporibus blanditiis esse architecto? Aperiam sapiente
-              repellat magni aliquam animi, deserunt, explicabo odio officia
-              repellendus mollitia ea ipsum, fugit quae.
-            </p>
+          <div class="banner_inner">
+            <h3 class="banner_inner_title">News</h3>
+            <div class="banner_inner_content">
+              <div class="row">
+                <div class="column">
+                  <a href="#" class="banner-item">歐式麵包買一送一</a>
+                  <span>2023-01-18</span>
+                </div>
+                <div class="column">
+                  <a href="#" class="banner-item">滿200享85折</a>
+                  <span>2023-01-20</span>
+                </div>
+                <div class="column">
+                  <a href="#" class="banner-item">滿200享85折</a>
+                  <span>2023-01-20</span>
+                </div>
+                <div class="column">
+                  <a href="#" class="banner-item">滿200享85折</a>
+                  <span>2023-01-20</span>
+                </div>
+                <div class="column">
+                  <a href="#" class="banner-item">more...</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="option container">
+      <section class="option">
         <div class="option_title">
           <h3>Options</h3>
         </div>
         <div class="option_content">
-          <a class="item_01">
+          <a class="item item_01">
             <img src="Img/option_bread.jpg" alt="" />
             <span>麵包&糕點</span>
           </a>
-          <a class="item_02">
+          <a class="item item_02">
             <img src="Img/option_bread.jpg" alt="" />
             <span>咖啡&茶飲</span>
           </a>
-          <a class="item_03">
+          <a class="item item_03">
             <img src="Img/option_bread.jpg" alt="" />
-            <span>關於我們</span>
+            <span>特色</span>
           </a>
-          <a class="item_04">
+          <a class="item item_04">
             <img src="Img/option_bread.jpg" alt="" />
             <span>門市據點</span>
-          </a>
-          <a class="item_05">
-            <img src="Img/option_bread.jpg" alt="" />
           </a>
         </div>
       </section>
       <section class="about">
         <div class="container">
-          <div class="about_title">公佈欄</div>
-          <div class="about_content">
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
-            <p>5</p>
-            <p>6</p>
-            <p>7</p>
+          <div class="about_title">About</div>
+          <div class="about_inner">
+            <div class="about_inner_content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium ut alias sapiente. Sint nam error consectetur
+                aliquid, quod placeat nisi qui harum quia. Nobis maiores quis
+                praesentium blanditiis, hic dignissimos!
+              </p>
+            </div>
+            <div class="about_inner_img">
+              <img src="/Img/cafe.jpg" alt="" />
+            </div>
           </div>
         </div>
       </section>
