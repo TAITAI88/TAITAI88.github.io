@@ -2,11 +2,24 @@
     margin-top: 55px;
     flex-grow: 1;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.993);
 }
 .main_top{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.main_top>.title{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid ;
+    border-image: linear-gradient(to right, #b6b6b67c, #36363600) 1;
+    /* border-radius: 10   px; */
 }
 .title> h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -14,75 +27,97 @@
     margin-bottom: 10px;
     color: rgb(204, 204, 204);
 }
-.main_top{
-    display: flex;
-    position: relative;
-    /* background-color: antiquewhite; */
-}
-.title{
-    width: 100%;
-    margin-top: 70px;
-    display: flex;
-    justify-content: flex-start;
-    border-bottom: 2px solid;
-    border-image: linear-gradient(to right, #b6b6b67c, #36363600) 1;
-    /* border-radius: 10   px; */
-}
-.main_content{
+.main_inner{
     padding-top: 3em;
     position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20%;
 }   
-.cover{
-    background-color: rgba(0, 0, 0, 0.9);
-    position: relative;
-    width: auto;
-    padding-bottom: 70px;
-}
-.block{
-    background-color: rgba(170, 170, 170, 0.973);
-    height: 300px;
-    border-radius: 50px;
-    margin-bottom: 50px;
-    border: 15px solid rgba(0, 0, 0, 0);
-    display: flex;
-}
-.img{
+.sec{
+    height: auto;
     display: flex;
     justify-content: center;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: rgb(116, 87, 65);
+    border-radius: 50px;
+    border: 3px solid darkgoldenrod;
+    color: rgb(235, 180, 108);
+    padding: 1%;
 }
-.inner{
-    width: 80%;
+.img{
+    height: 100%;
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    border: 2px solid wheat;
-    border-radius: 50px;
-    margin: 30px;
+    justify-content: center;
+    margin-right: 2%;
 }
-img{
+.img > img{
+    width: 100%;
     border: 2px solid wheat;
     border-radius: 50px;
+    position: relative;
 }
 .content{
-    margin-left: 50px;
-    margin-top: 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size:5vmin;
+    width: 80%;
+    border-bottom:3px solid ;
+    border-image: linear-gradient(to right, #fcd5807c, #36363600) 1;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(243, 218, 172);
 }
 .map{
     display: flex;
     /* background-color: aqua; */
-    width: 100%;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 70px;
 }
 .btn{
     background-color: rgba(240, 248, 255, 0);
-    color: black;
+    color: rgb(255, 255, 255);
     height: 50px;
     border: transparent;
 }
-.block{
-    border: 2px solid rgb(138, 6, 6);;
+.btn:hover{
+    background-color: transparent;
+}
+
+@media screen and (max-width:1440px){
+    .content{
+        width:40%;
+    }
+    .img{
+        width: 60%;
+    }
+}
+@media screen and (max-width:1024px){
+    .sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        width: 90%;
+    }
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

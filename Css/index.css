@@ -36,7 +36,7 @@
 .banner_inner_title{
     font-size: 48px;
     margin-bottom: 10%;
-    color: rgb(250, 237, 162);
+    color: rgb(235, 180, 108); 
 }
 .banner_inner_content > .row > .column{
     display:flex;
@@ -58,7 +58,7 @@
 }
 .option_title > h3{
     font-size: 48px;
-    color: rgb(250, 237, 162);
+    color: rgb(235, 180, 108); 
 }
 .option_content{
     width: 100%;
@@ -75,6 +75,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 3px solid darkgoldenrod;
 }
 .item > span{
     width: 100%;
@@ -82,7 +83,7 @@
     /* border: 1px solid salmon; */
     display: flex;
     justify-content: center;
-    font-size: 28px;
+    font-size: 26px;
     align-items: center;
 }
 .item > img{
@@ -145,8 +146,8 @@
     padding: 5%;
 }
 .about_inner_title{
-    color: rgb(250, 237, 162);
-    font-size: 40px;
+    color: rgb(235, 180, 108); 
+    font-size: 48px;
     padding-left: 5%;
 }
 .about_inner_content{
@@ -157,7 +158,7 @@
     color: antiquewhite;
 }
 .about_img{
-    width: 50%;
+    width: 40%;
 }
 @media screen and (max-width:1024px){
     .banner{
@@ -185,12 +186,12 @@
     position: relative;
     justify-content: flex-start;
     padding: 3%;
-    color: rgb(250, 237, 162);
+   
     }
     .banner_inner_title{
         font-size: 36px;
         margin-bottom: 5%;
-        color: rgb(250, 237, 162);
+    
     }
     .banner_inner_content > .row > .column{
         display:flex;
@@ -199,7 +200,7 @@
     }
     .banner-item{
         font-size: 14px;
-        color: antiquewhite;
+   
     }
     .option{
         padding: 5% 15% 15% 15%;
@@ -212,7 +213,7 @@
     }
     .option_title > h3{
         font-size: 48px;
-        color: rgb(250, 237, 162);
+     
     }
     .option_content{
         width: 100%;
@@ -234,7 +235,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        font-size: 20px;
+        font-size: 18px;
         align-items: center;
     }
     .item > img{
@@ -290,7 +291,7 @@
         clip-path: ellipse(55% 40% at 50% 50%);
     }
     .about_inner_title{
-        color: rgb(250, 237, 162);
+      
         font-size: 36px;
     }
     .about_inner{
@@ -305,7 +306,7 @@
         padding: 5%;
     }
     .about_inner_content > p{
-        color: antiquewhite;
+       
         font-size: 14px;
     }
 }
@@ -334,7 +335,7 @@
     flex-direction: column;
     position: relative;
     justify-content: flex-start;
-    color: rgb(250, 237, 162);
+    
     /* border: 1px solid salmon; */
     padding-left: 10% ;
     padding-right: 10%;
@@ -345,7 +346,7 @@
         justify-content: center;
         font-size: 40px;
         margin-bottom: 10%;
-        color: rgb(250, 237, 162);
+     
     }
     .banner_inner_content > .row > .column{
         display:flex;
@@ -354,7 +355,7 @@
     }
     .banner-item{
         font-size: 14px;
-        color: antiquewhite;
+  
     }
     .option{
         padding: 5% 15% 20% 15%;
@@ -367,7 +368,7 @@
     }
     .option_title > h3{
         font-size: 48px;
-        color: rgb(250, 237, 162);
+   
     }
     .option_content{
         width: 100%;
@@ -447,7 +448,6 @@
     }
     .about_inner_title{
         width: 100%;
-        color: rgb(250, 237, 162);
         font-size: 36px;
         display: flex;
         justify-content: center;
@@ -464,7 +464,7 @@
         padding: 5%;
     }
     .about_inner_content > p{
-        color: antiquewhite;
+    
         font-size: 14px;
     }
 }
