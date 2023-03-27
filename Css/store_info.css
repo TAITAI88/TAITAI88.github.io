@@ -45,6 +45,14 @@
     border: 3px solid darkgoldenrod;
     color: rgb(235, 180, 108);
     padding: 1%;
+    visibility: hidden;
+    animation: slide 2s ease-in;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+.sec:hover{
+    transition: 1.5S;
+    transform: translate(0, -20px);
 }
 .img{
     height: 100%;
@@ -95,7 +103,18 @@
 .btn:hover{
     background-color: transparent;
 }
-
+@keyframes slide{
+    0%{
+        transform: translate(-100px,0);
+        opacity: 0;
+        visibility: visible;
+    }
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+        visibility: visible;
+    }
+}
 @media screen and (max-width:1440px){
     .content{
         width:40%;
