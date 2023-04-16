@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>亞奇咖啡館</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="Css/common.css" />
     <link rel="stylesheet" href="Css/feature.css" />
   </head>
@@ -46,7 +49,7 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="bakery.html">麵包</a></li>
                   <li>
-                    <a class="dropdown-item" href="coffee.html">咖啡&茶飲</a>
+                    <a class="dropdown-item" href="coffee.html">飲品</a>
                   </li>
                 </ul>
               </li>
@@ -79,47 +82,47 @@
       </div>
       <div class="main_inner">
         <section class="sec sec_01">
-          <div class="img">
+          <div class="img" data-aos="fade-right">
             <img src="Img/feature_01.jpg" />
           </div>
-          <div class="content">
-            <span class="title">天然食材</span>
+          <div class="content" data-aos="flip-down">
+            <span class="title" data-aos="fade-left">天然食材</span>
             <p>堅持天然，不使用任何人工香料，給顧客最健康的選擇。</p>
           </div>
         </section>
         <section class="sec sec_02">
-          <div class="content">
-            <span class="title">堅持手工</span>
+          <div class="content" data-aos="fade-right">
+            <span class="title" data-aos="flip-down">堅持手工</span>
             <p>純手工搓揉麵團，最柔軟的口感。</p>
           </div>
-          <div class="img">
+          <div class="img" data-aos="fade-left">
             <img src="Img/feature_02.jpg" />
           </div>
         </section>
         <section class="sec sec_03">
-          <div class="img">
+          <div class="img" data-aos="fade-left">
             <img src="Img/feature_03.jpg" />
           </div>
-          <div class="content">
-            <span class="title">環境清幽</span>
+          <div class="content" data-aos="fade-right">
+            <span class="title" data-aos="flip-down">環境清幽</span>
             <p>綠化環境、空氣清香，吸收大自然的氣息。</p>
           </div>
         </section>
         <section class="sec sec_04">
-          <div class="content">
-            <span class="title">休閒時光</span>
+          <div class="content" data-aos="fade-right">
+            <span class="title" data-aos="flip-down">休閒時光</span>
             <p>與好友齊聚一堂的好去處，悠遊自在，為生活增添樂趣。</p>
           </div>
           <div class="img">
-            <img src="Img/feature_04.jpg" />
+            <img src="Img/feature_04.jpg" data-aos="fade-left" />
           </div>
         </section>
         <section class="sec sec_05">
-          <div class="img">
+          <div class="img" data-aos="fade-right">
             <img src="Img/feature_05.jpg" />
           </div>
-          <div class="content">
-            <span class="title">地點方便</span>
+          <div class="content" data-aos="fade-left">
+            <span class="title" data-aos="flip-down">地點方便</span>
             <p>位於市中心的小巷弄內，鄰近捷運站，步行僅需5分鐘。</p>
           </div>
         </section>
@@ -182,5 +185,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="Js/index.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

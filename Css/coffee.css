@@ -1,92 +1,106 @@
-.main{
-    margin-top: 55px;
-    flex-grow: 1;
-    position: relative;
-    background-color: rgb(0, 0, 0);
+.main {
+  margin-top: 55px;
+  flex-grow: 1;
+  position: relative;
+  background-color: rgb(0, 0, 0);
 }
-.main_top{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.title> h2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 48px;
-    margin-bottom: 10px;
-    color: rgb(204, 204, 204);
-}
-.main_top{
-    display: flex;
-    position: relative;
-    /* background-color: antiquewhite; */
-}
-.title{
-    width: 100%;
-    margin-top: 70px;
-    display: flex;
-    justify-content: flex-start;
-    border-bottom: 2px solid;
-    border-image: linear-gradient(to right, #b6b6b67c, #36363600) 1;
-    /* border-radius: 10   px; */
-}
-.main_content{
-    padding-top: 3em;
-    position: relative;
-}   
-.main_content > .row:nth-child(1) {
-    visibility: hidden;
-    animation: slide 1.5s ease-in;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-}  
-.main_content > .row:nth-child(2) {
-    visibility: hidden;
-    animation: slide 1.5s ease-in;
-    animation-delay: 0.8s;
-    animation-fill-mode: forwards;
-}  
-.main_content > .row:nth-child(3) {
-    visibility: hidden;
-    animation: slide 1.5s ease-in;
-    animation-delay: 1.2s;
-    animation-fill-mode: forwards;
-}  
-.product{
-    border: 15px solid rgba(0, 0, 0, 0);
-}
-.name{
-    font-size: 20px;
-    /* background-color: rgb(4, 0, 255); */
-    display: inline;
-}
-.price{
-    /* background-color: rgb(201, 151, 86); */
-    font-size: 14px;
-    display: flex;
-    justify-content: flex-end;
 
+.main_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.main_bottom{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+
+.title > h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: rgb(204, 204, 204);
 }
-.main_bottom > a:nth-child(2){
-    display: flex;
-    margin-right:1%;
-    margin-left:1%;
+
+.main_top {
+  display: flex;
+  position: relative;
+  /* background-color: antiquewhite; */
 }
-@keyframes slide{
-    0%{
-        transform: translate(0,100px);
-        opacity: 0;
-        visibility: visible;
-    }
-    100%{
-        transform: translate(0,0);
-        opacity: 1;
-        visibility: visible;
-    }
+
+.title {
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(to right, rgba(182, 182, 182, 0.4862745098), rgba(54, 54, 54, 0)) 1;
+     border-image: linear-gradient(to right, rgba(182, 182, 182, 0.4862745098), rgba(54, 54, 54, 0)) 1;
+  /* border-radius: 10   px; */
 }
+
+.main_content {
+  padding-top: 3em;
+  position: relative;
+}
+
+.main_content > .row:nth-child(1) {
+  visibility: hidden;
+  animation: slide 1.5s ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+.main_content > .row:nth-child(2) {
+  visibility: hidden;
+  animation: slide 1.5s ease-in;
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+}
+
+.main_content > .row:nth-child(3) {
+  visibility: hidden;
+  animation: slide 1.5s ease-in;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+.product {
+  border: 15px solid rgba(0, 0, 0, 0);
+}
+
+.name {
+  font-size: 20px;
+  /* background-color: rgb(4, 0, 255); */
+  display: inline;
+}
+
+.price {
+  /* background-color: rgb(201, 151, 86); */
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.main_bottom > a:nth-child(2) {
+  display: flex;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0, 100px);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+    visibility: visible;
+  }
+}/*# sourceMappingURL=coffee.css.map */

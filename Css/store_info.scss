@@ -4,7 +4,6 @@
   position: relative;
   background-color: rgba(0, 0, 0, 0.993);
 }
-
 .main_top {
   display: flex;
   flex-direction: column;
@@ -12,7 +11,6 @@
   margin-left: 15%;
   margin-right: 15%;
 }
-
 .main_top > .title {
   width: 100%;
   margin-top: 70px;
@@ -20,18 +18,15 @@
   display: flex;
   justify-content: flex-start;
   border-bottom: 2px solid;
-  -o-border-image: linear-gradient(to right, rgba(182, 182, 182, 0.4862745098), rgba(54, 54, 54, 0)) 1;
-     border-image: linear-gradient(to right, rgba(182, 182, 182, 0.4862745098), rgba(54, 54, 54, 0)) 1;
+  border-image: linear-gradient(to right, #b6b6b67c, #36363600) 1;
   /* border-radius: 10   px; */
 }
-
 .title > h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 48px;
   margin-bottom: 10px;
   color: rgb(204, 204, 204);
 }
-
 .main_inner {
   padding-top: 3em;
   position: relative;
@@ -39,7 +34,6 @@
   margin-right: 15%;
   margin-bottom: 20%;
 }
-
 .sec {
   height: auto;
   display: flex;
@@ -56,12 +50,10 @@
   animation-delay: 0.2s;
   animation-fill-mode: forwards;
 }
-
 .sec:hover {
   transition: 1.5s;
   transform: translate(0, -20px);
 }
-
 .img {
   height: 100%;
   width: 50%;
@@ -69,14 +61,12 @@
   justify-content: center;
   margin-right: 2%;
 }
-
 .img > img {
   width: 100%;
   border: 2px solid wheat;
   border-radius: 50px;
   position: relative;
 }
-
 .content {
   width: 100%;
   height: 100%;
@@ -85,41 +75,34 @@
   justify-content: center;
   align-items: center;
 }
-
 .name {
   font-size: 5vmin;
   width: 80%;
   border-bottom: 3px solid;
-  -o-border-image: linear-gradient(to right, rgba(252, 213, 128, 0.4862745098), rgba(54, 54, 54, 0)) 1;
-     border-image: linear-gradient(to right, rgba(252, 213, 128, 0.4862745098), rgba(54, 54, 54, 0)) 1;
+  border-image: linear-gradient(to right, #fcd5807c, #36363600) 1;
   display: flex;
   justify-content: center;
 }
-
 .info {
   margin-top: 20px;
   font-size: 22px;
   color: rgb(243, 218, 172);
 }
-
 .map {
   display: flex;
   /* background-color: aqua; */
   justify-content: flex-end;
   align-items: center;
 }
-
 .btn {
   background-color: rgba(240, 248, 255, 0);
   color: rgb(255, 255, 255);
   height: 50px;
   border: transparent;
 }
-
 .btn:hover {
   background-color: transparent;
 }
-
 @keyframes slide {
   0% {
     transform: translate(-100px, 0);
@@ -155,4 +138,4 @@
     justify-content: center;
     align-items: center;
   }
-}/*# sourceMappingURL=store_info.css.map */
+}
